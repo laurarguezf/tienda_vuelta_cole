@@ -4,43 +4,56 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Evaluación</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./scss/main.scss" />
   </head>
 
   <body>
     
     <!-- HEADER -->
-    <header>
-      <img src="./images/ico-menu.svg" alt="Menu hamburguesa">
+    <header class="header">
+      <a href="https://adalab.es/" target="_blank"><img class="header_icon" src="./images/ico-menu.svg" alt="Menú hamburguesa"></a>
     </header>
     
     <main>
       <!-- HERO -->
-      Comienzos compartidos
-      Todo lo que necesitan para volver al cole con ilusión
-      <img src="./images/ico-scroll-down.svg" alt="Botón para desplazarse hacia abajo">
-
-      <!-- CONTENIDO PRINCIPAL -->
-      Historias, moda y ropa deportiva
-      Tu tienda de deporte
-      El deporte nos mantiene en forma. Nos mantiene alerta. Nuestra ropa deportiva para hombre y mujer te ofrece las últimas tecnologías, a la altura de tu rendimiento, para que superes tu mejor marca personal.
-      Comprar
-
+      <section class="hero">
+        <h1 class="hero_text_title">Comienzos</h1> 
+        <h1 class="hero_text_title">Compartidos</h1>
+        <p class="hero_text_paragraph">Todo lo que necesitan para volver al cole con ilusión</p>
+        <div class="hero_button"> 
+          <a class="hero_button_link" href="#"><img  src="./images/ico-scroll-down.svg" alt="Botón para desplazarse hacia abajo"></a>
+        </div>
+      </section>
+      
+      <!-- DESCRIPCION PRINCIPAL -->
+      <section class="description">
+        <h2 class="description_title_small">Historias, moda y ropa deportiva</h2>
+        <h1 class="description_title">Tu tienda de deporte</h1>
+        <p class="description_text">El deporte nos mantiene en forma. Nos mantiene alerta. Nuestra ropa deportiva para hombre y mujer te ofrece las últimas tecnologías, a la altura de tu rendimiento, para que superes tu mejor marca personal.</p>
+        <button class="description_button">Comprar</button>
+      </section>
+      
       <!-- PRODUCTOS -->
-      ¡Prepáralos con tus marcas favoritas!
-      Vuelta al cole
-      <img src="./images/lpbts-mod05-img01-desk.png" alt="Imagen de una niña con mochila">
-      Mochilas escolares
-      <img src="./images/lpbts-mod05-img04-mob.png" alt="Imagen de un niño con lapices de colores">
-      Estuches
-      <img src="./images/lpbts-mod05-img03-mob.png" alt="Imagen de una niña con una bolsa de deporte">
-      Bolsas de deporte
-      Empezar ahora
-      <img src="./images/ico-arrow.svg" alt="Botón para desplazarse hacia arriba">
+      <section class="products">
+        ¡Prepáralos con tus marcas favoritas!
+        Vuelta al cole
+        <img src="./images/lpbts-mod05-img01-desk.png" alt="Imagen de una niña con mochila">
+        Mochilas escolares
+        <img src="./images/lpbts-mod05-img04-mob.png" alt="Imagen de un niño con lapices de colores">
+        Estuches
+        <img src="./images/lpbts-mod05-img03-mob.png" alt="Imagen de una niña con una bolsa de deporte">
+        Bolsas de deporte
+        Empezar ahora
+        <img src="./images/ico-arrow.svg" alt="Botón para desplazarse hacia arriba">
+      </section>
+      
     </main>
   
-    <!-- FOOTER -->
-    <footer>
+    <!-- FOOTER 
+    <footer class="footer">
       
       Zapatillas
       Ropa 
@@ -54,7 +67,7 @@
 
       &copy;2023
       we ❤︎ run
-    </footer>
+    </footer>-->
 
   </body>
 </html>

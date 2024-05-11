@@ -1,0 +1,16 @@
+.header {
+    background-color: #6c933e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.header_icon {
+    object-fit: contain;
+    padding: 0.8rem;
+}
+
+
