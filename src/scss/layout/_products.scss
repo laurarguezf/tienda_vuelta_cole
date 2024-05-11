@@ -4,6 +4,11 @@
     grid-template-columns: 1fr;
     text-align: center;
     padding-block: 1.5rem;
+
+    @media (min-width: 768px) {
+        grid-template-columns: repeat(3, 1fr);
+        padding-block: 2rem;
+    };
 }
 
 .products_title_small {
@@ -11,6 +16,10 @@
     color: #626262;
     font-weight: 700;
     font-size: 0.8rem;
+
+    @media (min-width: 768px) {
+        grid-column: span 3;
+    };
 }
 
 .products_title {
@@ -19,6 +28,11 @@
     font-weight: 700;
     font-size: 1.2rem;
     margin-block: 0.5rem;
+
+    @media (min-width: 768px) {
+        grid-column: span 3;
+        font-size: 1.7rem;
+    };
 }
 
 .products_grid {
@@ -37,10 +51,19 @@
     font-weight: 700;
     font-size: 0.85rem;
     padding-top: 0.25rem;
+
+    @media (min-width: 768px) {
+        font-size: 1rem;
+    };
 }
 
 .products_button_container {
     margin-bottom: 0.5rem;
+
+    @media (min-width: 768px) {
+        grid-column: span 3;
+        margin-block: 1rem;
+    };
 }
 
 .products_button {
