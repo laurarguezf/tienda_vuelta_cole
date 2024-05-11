@@ -1,4 +1,4 @@
-.products {
+#products {
     background-color: #d9e4cc;
     display: grid;
     grid-template-columns: 1fr;
@@ -52,4 +52,11 @@
     font-size: 1.1rem;
     padding-block: 10px;
     cursor: pointer;
+    transition: background-color 0.5s, color 0.5s, box-shadow 0.5s;
+}
+
+.products_button:hover {
+    background-color: white;
+    color: #6c933e;
+    box-shadow: 0px 0px 10px #626262;
 }
