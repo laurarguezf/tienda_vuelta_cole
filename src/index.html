@@ -38,36 +38,53 @@
       
       <!-- PRODUCTOS -->
       <section class="products">
-        ¡Prepáralos con tus marcas favoritas!
-        Vuelta al cole
-        <img src="./images/lpbts-mod05-img01-desk.png" alt="Imagen de una niña con mochila">
-        Mochilas escolares
-        <img src="./images/lpbts-mod05-img04-mob.png" alt="Imagen de un niño con lapices de colores">
-        Estuches
-        <img src="./images/lpbts-mod05-img03-mob.png" alt="Imagen de una niña con una bolsa de deporte">
-        Bolsas de deporte
-        Empezar ahora
-        <img src="./images/ico-arrow.svg" alt="Botón para desplazarse hacia arriba">
+        <h2 class="products_title_small">¡Prepáralos con tus marcas favoritas!</h2>
+        <h1 class="products_title">Vuelta al cole</h1>
+        <article class="products_grid">
+          <img class="products_image" src="./images/lpbts-mod05-img01-desk.png" alt="Imagen de una niña con mochila">
+          <p class="products_image_caption">Mochilas escolares</p>
+        </article>
+        <article class="products_grid">
+          <img class="products_image" src="./images/lpbts-mod05-img04-mob.png" alt="Imagen de un niño con lapices de colores">
+          <p class="products_image_caption">Estuches</p>
+        </article>
+        <article class="products_grid">
+          <img class="products_image" src="./images/lpbts-mod05-img03-mob.png" alt="Imagen de una niña con una bolsa de deporte">
+          <p class="products_image_caption">Bolsas de deporte</p>
+        </article>
+        <div class="products_button_container"> <!-- creo este div para que el botón quede centrado en la columna -->
+          <button class="products_button">Empezar ahora</button>
+        </div>
       </section>
       
     </main>
   
-    <!-- FOOTER 
+    <!-- FOOTER -->
     <footer class="footer">
-      
-      Zapatillas
-      Ropa 
-      Niño/a
-      Destacados
-      Tips
-
-      Twitter
-      Instagram
-      Youtube
-
-      &copy;2023
-      we ❤︎ run
-    </footer>-->
+      <div class="footer_button_container">
+        <img src="./images/ico-arrow.svg" alt="Botón para desplazarse hacia arriba">
+      </div>
+      <nav class="footer_nav">
+        <ul class="footer_list">
+          <li><a class="footer_list_link" href="https://adalab.es/" target="_blank">Zapatillas</a></li>
+          <li><a class="footer_list_link" href="https://adalab.es/" target="_blank">Ropa</a></li>
+          <li><a class="footer_list_link" href="https://adalab.es/" target="_blank">Niño/a</a></li>
+          <li><a class="footer_list_link" href="https://adalab.es/" target="_blank">Destacados</a></li>
+          <li><a class="footer_list_link" href="https://adalab.es/" target="_blank">Tips</a></li>
+        </ul>
+      </nav>
+      <nav class="footer_nav">
+        <ul class="footer_list">
+          <li><a class="footer_list_link" href="https://adalab.es/" target="_blank">Twitter</a></li>
+          <li><a class="footer_list_link" href="https://adalab.es/" target="_blank">Instagram</a></li>
+          <li><a class="footer_list_link" href="https://adalab.es/" target="_blank">Youtube</a></li>
+        </ul>
+      </nav>     
+      <section class="footer_love">
+        <p>&copy;2023</p>
+        <p>we <span class="footer_heart">❤︎</span> run</p>
+      </section>
+    </footer>
 
   </body>
 </html>

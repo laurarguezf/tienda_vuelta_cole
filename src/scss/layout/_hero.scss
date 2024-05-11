@@ -2,7 +2,7 @@
     height: 100vh;
     background-image: url('../images/cover.jpeg');
     background-size: cover;
-    background-position: center right;
+    background-position-x: 85%; /*el 85% del ancho de la imagen estará desde el borde izquierdo del contenedor hero*/
     color: white;
     display: flex;
     flex-direction: column;
