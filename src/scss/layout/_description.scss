@@ -4,6 +4,10 @@
     @media (min-width: 768px) {
         margin: 2.5rem 2rem 3.5rem 2rem;
     };
+
+    @media (min-width: 1280px) {
+        margin: 2.5rem 10rem;
+    };
 }
 
 .description_title_small {
@@ -27,12 +31,20 @@
         font-size: 1.7rem;
         margin-block: 1rem;
     };
+
+    @media (min-width: 1280px) {
+        font-size: 1.9rem;
+    };
 }
 
 .description_text {
     color: #4a4a4a;
     font-size: 1.1rem;
     line-height: 1.5;
+
+    @media (min-width: 768px) {
+        font-size: 1.2rem;
+    };
 }
 
 .description_button {

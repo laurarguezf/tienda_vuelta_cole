@@ -50,6 +50,11 @@
         flex-direction: row;
         gap: 8rem;
     };
+
+    @media (min-width: 1280px) {
+        margin-right: 12rem;
+        gap: 12rem;
+    };
 }
 
 .footer_nav {
@@ -84,6 +89,10 @@
     @media (min-width: 768px) {
         order: 1;
         text-align: left;
+    };
+
+    @media (min-width: 1280px) {
+        padding-right: 10rem;
     };
 }
 
