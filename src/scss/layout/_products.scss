@@ -1,5 +1,5 @@
 #products {
-    background-color: #d9e4cc;
+    background-color: var(--lightgreen-color);
     display: grid;
     grid-template-columns: 1fr;
     text-align: center;
@@ -47,7 +47,7 @@
     width: 110px;
     height: 120px;
     border-radius: 50%;
-    box-shadow: 0 4px 6px #626262;
+    box-shadow: 0 3px 6px var(--grey-color);
 }
 
 .products_image_caption {
@@ -71,8 +71,8 @@
 }
 
 .products_button {
-    background-color: #6c933e;
-    color: white;
+    background-color: var(--green-color);
+    color: var(--white-color);
     border: none;
     width: 180px;
     border-radius: 20px;
@@ -83,7 +83,7 @@
 }
 
 .products_button:hover {
-    background-color: white;
-    color: #6c933e;
-    box-shadow: 0px 0px 10px #626262;
+    background-color: var(--white-color);
+    color: var(--green-color);
+    box-shadow: 0px 0px 10px var(--grey-color);
 }
