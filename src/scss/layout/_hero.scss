@@ -25,9 +25,9 @@
 
 .hero_text_title {
     text-transform: uppercase;
-    font-family: 'RobotoSlab, sanserif';
-    font-weight: bold;
-    font-size: 1.8rem;
+    font-family: var(--alt-font);
+    font-weight: var(--alt-weight);
+    font-size: 2rem;
     padding-bottom: 1.5rem;
 
     @media (min-width: 768px) {

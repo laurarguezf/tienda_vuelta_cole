@@ -21,10 +21,10 @@
 }
 
 .description_title {
-    font-family: "RobotoSlab, sanserif";
+    font-family: var(--alt-font);
     text-transform: uppercase;
-    font-weight: 700;
-    font-size: 1.2rem;
+    font-weight: var(--alt-weight);
+    font-size: 1.35rem;
     margin-block: 0.5rem;
 
     @media (min-width: 768px) {
@@ -54,6 +54,7 @@
     border-radius: 20px;
     padding: 8px 40px;
     font-size: 1.1rem;
+    font-weight: 550;
     cursor: pointer;
     margin-top: 3rem;
     transition: background-color 0.4s, color 0.4s, transform 0.4s;

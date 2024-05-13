@@ -16,9 +16,9 @@
 }
 
 .products_title_small {
-    font-family: "RobotoSlab, sans-serif";
+    font-family: var(--alt-font);
     color: #626262;
-    font-weight: 700;
+    font-weight: var(--alt-weight);
     font-size: 0.8rem;
 
     @media (min-width: 768px) {
@@ -27,9 +27,9 @@
 }
 
 .products_title {
-    font-family: "RobotoSlab, sans-serif";
+    font-family: var(--alt-font);
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: var(--alt-weight);
     font-size: 1.2rem;
     margin-block: 0.5rem;
 
@@ -51,8 +51,8 @@
 }
 
 .products_image_caption {
-    font-family: "RobotoSlab, sans-serif";
-    font-weight: 700;
+    font-family: var(--alt-font);
+    font-weight: var(--alt-weight);
     font-size: 0.85rem;
     padding-top: 0.25rem;
 
