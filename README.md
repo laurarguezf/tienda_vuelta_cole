@@ -1,5 +1,5 @@
 # Tienda de Deportes Vuelta al Cole
-[DEMO](https://github.com/laurarguezf/tienda_vuelta_cole.git)
+[DEMO](https://laurarguezf.github.io/tienda_vuelta_cole/)
 
 Esta es una página web **estática** desarrollada para practicar el manejo de la maquetación web utilizando tecnologías como **HTML5**, **CSS3** y **Sass**. El objetivo principal es aplicar conceptos de diseño responsive, Flexbox y CSS Grid en un proyecto básico que simula una tienda de deportes.
 
